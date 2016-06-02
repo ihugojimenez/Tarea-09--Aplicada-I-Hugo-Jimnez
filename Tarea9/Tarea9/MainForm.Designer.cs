@@ -35,6 +35,7 @@
             this.toolStripMenuItem3 = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem4 = new System.Windows.Forms.ToolStripMenuItem();
             this.tiposDeNeumaticosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.tiposDeEstrellasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -56,7 +57,8 @@
             this.toolStripMenuItem2,
             this.toolStripMenuItem3,
             this.toolStripMenuItem4,
-            this.tiposDeNeumaticosToolStripMenuItem});
+            this.tiposDeNeumaticosToolStripMenuItem,
+            this.tiposDeEstrellasToolStripMenuItem});
             this.toolStripSplitButton1.Image = ((System.Drawing.Image)(resources.GetObject("toolStripSplitButton1.Image")));
             this.toolStripSplitButton1.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripSplitButton1.Name = "toolStripSplitButton1";
@@ -91,6 +93,13 @@
             this.tiposDeNeumaticosToolStripMenuItem.Text = "4.Tipos de neumaticos";
             this.tiposDeNeumaticosToolStripMenuItem.Click += new System.EventHandler(this.tiposDeNeumaticosToolStripMenuItem_Click);
             // 
+            // tiposDeEstrellasToolStripMenuItem
+            // 
+            this.tiposDeEstrellasToolStripMenuItem.Name = "tiposDeEstrellasToolStripMenuItem";
+            this.tiposDeEstrellasToolStripMenuItem.Size = new System.Drawing.Size(232, 26);
+            this.tiposDeEstrellasToolStripMenuItem.Text = "5.Tipos de estrellas";
+            this.tiposDeEstrellasToolStripMenuItem.Click += new System.EventHandler(this.tiposDeEstrellasToolStripMenuItem_Click);
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -114,6 +123,7 @@
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem3;
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem4;
         private System.Windows.Forms.ToolStripMenuItem tiposDeNeumaticosToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem tiposDeEstrellasToolStripMenuItem;
     }
 }
 

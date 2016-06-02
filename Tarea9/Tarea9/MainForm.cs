@@ -41,5 +41,11 @@ namespace Tarea9
             NeumaticoForm nf = new NeumaticoForm();
             nf.Show();
         }
+
+        private void tiposDeEstrellasToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            StarsForm sf = new StarsForm();
+            sf.Show();
+        }
     }
 }
