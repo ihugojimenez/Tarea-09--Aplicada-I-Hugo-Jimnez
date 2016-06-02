@@ -22,5 +22,12 @@ namespace Tarea9
             Productos p = new Productos();
             p.Show();
         }
+
+        private void toolStripMenuItem3_Click(object sender, EventArgs e)
+        {
+            CuentaBancaria cb = new CuentaBancaria();
+
+            cb.Show();
+        }
     }
 }
