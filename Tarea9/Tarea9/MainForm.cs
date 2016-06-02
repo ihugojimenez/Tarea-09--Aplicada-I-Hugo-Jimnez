@@ -19,7 +19,8 @@ namespace Tarea9
 
         private void toolStripMenuItem2_Click(object sender, EventArgs e)
         {
-
+            Productos p = new Productos();
+            p.Show();
         }
     }
 }
