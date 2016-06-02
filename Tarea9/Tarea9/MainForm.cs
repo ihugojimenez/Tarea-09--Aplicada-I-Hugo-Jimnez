@@ -16,5 +16,10 @@ namespace Tarea9
         {
             InitializeComponent();
         }
+
+        private void toolStripMenuItem2_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
