@@ -29,5 +29,11 @@ namespace Tarea9
 
             cb.Show();
         }
+
+        private void toolStripMenuItem4_Click(object sender, EventArgs e)
+        {
+            Enlace enl = new Enlace();
+            enl.Show();
+        }
     }
 }

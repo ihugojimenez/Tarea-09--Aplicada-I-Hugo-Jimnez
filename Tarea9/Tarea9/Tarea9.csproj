@@ -52,6 +52,12 @@
     <Compile Include="CuentaBancaria.Designer.cs">
       <DependentUpon>CuentaBancaria.cs</DependentUpon>
     </Compile>
+    <Compile Include="Enlace.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Enlace.Designer.cs">
+      <DependentUpon>Enlace.cs</DependentUpon>
+    </Compile>
     <Compile Include="MainForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -68,6 +74,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="CuentaBancaria.resx">
       <DependentUpon>CuentaBancaria.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Enlace.resx">
+      <DependentUpon>Enlace.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>

@@ -57,7 +57,6 @@ namespace Tarea9
         public void mostrar()
         {
             StringBuilder sb = new StringBuilder("Numero" + "\t" + "Nombre" + "\t" + "Agencia" + "Tipo" + "\t" + "Linea de credito" + "\t" + "Estado" + "\t" + "Moneda" + "\t" + "Cuenta contable" + "\t" + "\n" + "\n");
-            //MostrarRichTextBox.Text = "Numero" + "\t" + "Nombre" + "\t" + "Agencia" + "Tipo" + "\t" + "Linea de credito" + "\t" + "Estado" + "\t" + "Moneda" + "\t" + "Cuenta contable" + "\t" + "\n" + "\n";
             for (int ae = 0; ae < dato.Length; ae++)
             {
                 sb.Append(dato[ae].Numero + "\t" + dato[ae].Nombre + "\t" + dato[ae].Agencia + "\t" + dato[ae].Tipo + "\t" + dato[ae].LinCred +"\t"+ dato[ae].Estado + "\t" + dato[ae].Moneda + "\t" +dato[ae].CuentaCont + "\n");
