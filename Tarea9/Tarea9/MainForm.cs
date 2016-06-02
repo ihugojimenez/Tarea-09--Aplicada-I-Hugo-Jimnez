@@ -35,5 +35,11 @@ namespace Tarea9
             Enlace enl = new Enlace();
             enl.Show();
         }
+
+        private void tiposDeNeumaticosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            NeumaticoForm nf = new NeumaticoForm();
+            nf.Show();
+        }
     }
 }
